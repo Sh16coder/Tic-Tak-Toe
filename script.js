@@ -1,12 +1,12 @@
 // --- Firebase Config ---
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT.firebaseio.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyB2uDjuCHTNY2bPLCGN-ZWRElYsbnYnj3I",
+  authDomain: "tic-tac-toe-dcd33.firebaseapp.com",
+  databaseURL: "https://tic-tac-toe-dcd33-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "tic-tac-toe-dcd33",
+  storageBucket: "tic-tac-toe-dcd33.firebasestorage.app",
+  messagingSenderId: "1055925926979",
+  appId: "1:1055925926979:web:d9d3b8ccdf7b4f10b3a8f6"
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
