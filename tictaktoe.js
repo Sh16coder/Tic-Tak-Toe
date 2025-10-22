@@ -454,3 +454,5 @@ function handleRoomInvite() {
         }, 1000);
     }
 }
+
+handleRoomInvite();
